@@ -30,5 +30,5 @@ public class Pato extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 
-
+	
 }

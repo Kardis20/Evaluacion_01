@@ -35,4 +35,5 @@ public class Animal {
 		this.sNombre = sNombre;
 		this.iPatas = iPatas;
 	}
+	
 }

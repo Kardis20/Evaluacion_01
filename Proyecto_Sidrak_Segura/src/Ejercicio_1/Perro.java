@@ -2,7 +2,8 @@ package Ejercicio_1;
 
 
 public class Perro extends Animal {
-	String sRaza;
+	String sRaza = "Maltes";
+	
 	
 	public String getsRaza() {
 		return sRaza;
@@ -26,5 +27,8 @@ public class Perro extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 	
-
+	public void ObtenerRaza(){
+		
+		System.out.println("La raza del perro es "+ this.sRaza);
+	}
 }

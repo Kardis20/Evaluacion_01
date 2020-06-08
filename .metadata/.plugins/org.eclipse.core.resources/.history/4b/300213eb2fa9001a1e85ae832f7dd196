@@ -1,0 +1,29 @@
+package Ejercicio_1;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		Gato gato = new Gato();
+		Perro perro = new Perro();
+		Pato pato = new Pato();
+		
+		perro.setsNombre("Tomas");
+		System.out.println("Nombre del Perro"+ perro.getsNombre());
+	
+		System.out.println("Raza del Perro");
+		perro.getsRaza();
+		
+		
+		
+
+		System.out.println(perro.getsRaza());
+		System.out.println();
+
+	}
+
+}

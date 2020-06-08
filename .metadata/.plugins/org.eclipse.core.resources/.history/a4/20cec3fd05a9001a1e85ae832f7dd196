@@ -1,0 +1,16 @@
+package Ejercicio_1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Gato gato = new Gato();
+		Perro perro = new Perro();
+		Pato pato = new Pato();
+		perro.setsRaza("");
+		perro.ObtenerRaza();
+		System.out.println("La raza del perro es: "+ perro.getsRaza());
+		
+
+	}
+
+}
